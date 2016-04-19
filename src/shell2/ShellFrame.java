@@ -162,7 +162,6 @@ public class ShellFrame extends javax.swing.JFrame {
        {
            argument=polecenie.substring(7);
            promptAkcja(argument);
-           System.out.println(argument);
         }
        else if(polecenie.regionMatches(0,"cd ",0,3))
        {
